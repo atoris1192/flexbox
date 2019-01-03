@@ -3,6 +3,17 @@
   height: 300px;
   color: #ffffff;
   background-color: #eeeeee;
+  display: flex;
+  // flex-flow: nowrap row;
+  flex-flow: nowrap row-reverse;
+  // flex-flow: wrap row;
+  // flex-flow: wrap-reverse row
+  // flex-flow: wrap-reverse row-reverse;
+  // flex-flow: nowrap column;
+  // flex-flow: nowrap column-reverse;
+  // flex-flow: wrap column;
+  // flex-flow: wrap-reverse column;
+
 }
 .box {
   width: 80px;
