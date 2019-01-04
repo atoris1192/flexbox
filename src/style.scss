@@ -55,7 +55,8 @@
 }
 
 .box-10 { 
-  flex: 1 1 80px;
+  // flex: 1 1 80px;
+  flex: 0 1 120px;
   background-color: pink;
   order: 1;
   align-self: flex-start;
@@ -63,12 +64,32 @@
   // align-self: center;
 }
 .box-11 {
-  flex: 2 1 80px;
+  // flex: 2 1 80px;
+  flex: 0 2 120px;
   order: 2;
   background-color: tomato;
 }
 .box-12 { 
-  flex: 3 1 80px;
+  // flex: 3 1 80px;
+  flex: 0 3 120px;
+  order: 3;
+  background-color: slategray;
+}
+
+.box-20 { 
+  flex: 0 1 auto;
+  order: 1;
+  background-color: pink;
+}
+.box-21 {
+  margin-left: auto;
+  flex: 0 1 auto;
+  order: 2;
+  background-color: tomato;
+}
+.box-22 { 
+  // margin-left: auto;
+  flex: 0 1 auto;
   order: 3;
   background-color: slategray;
 }
