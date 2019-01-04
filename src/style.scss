@@ -126,6 +126,8 @@
   flex-direction: row-reverse;
 }
 
+
+
 header, footer {
   background-color: #eee;
 }
@@ -143,4 +145,21 @@ header, footer {
 .center {
   flex: 1 1 auto;
   background-color: skyblue;
+}
+@media all and (max-width: 500px) {
+  .container.d {
+    flex-direction: column;
+  }
+  .center {
+    order: 1;
+    flex: 0 1 100%;
+  }
+  .left {
+    order: 2;
+    flex: 0 1 100%;
+  }
+  .rigth {
+    order: 3;
+    flex: 0 1 100%;
+  }
 }
