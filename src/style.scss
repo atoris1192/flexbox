@@ -93,3 +93,35 @@
   order: 3;
   background-color: slategray;
 }
+
+.container.c {
+  width: 300px;
+  height: 300px;
+  color: #fff;
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-30 { 
+  flex: 0 1 auto;
+  order: 1;
+  background-color: pink;
+}
+
+.media {
+  display: flex;
+  margin-bottom: 1em;
+  align-items: flex-start;
+  
+  img {
+    margin: 0 1em;
+  }
+  p {
+    margin: 0;
+  }
+}
+.media-reverse {
+  flex-direction: row-reverse;
+}
