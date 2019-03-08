@@ -8,13 +8,14 @@
   background-color: #eeeeee;
 
   display: flex;
-  flex-direction: row;
+  // derection方向は、flex-flow 指定でいいかも
+  // flex-direction: row;
   // flex-direction: column;
 
   // flex-flow
-    // flex-flow: nowrap row;
+    flex-flow: nowrap row;
     // flex-flow: nowrap row-reverse;
-    flex-flow: wrap row; // 行単位で折り返す(2行の場合真ん中が2行目になる)
+    // flex-flow: wrap row; // 行単位で折り返す(2行の場合真ん中が2行目になる)
     // flex-flow: wrap-reverse row;
     // flex-flow: wrap-reverse row-reverse;
 
