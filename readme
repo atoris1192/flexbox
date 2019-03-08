@@ -1,0 +1,4 @@
+# Flexbox sample
+## exec
+* `yarn run parcel src/index.pug`
+* `yarn dev`
